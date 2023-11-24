@@ -5,3 +5,8 @@ function getArguments() {
 
     return { num1, num2 };
 }
+function calcSum() {
+    const { num1, num2 } = getArguments();
+    const sum = num1 + num2;
+    console.log(`Sum: ${sum}`);
+}
